@@ -7,7 +7,7 @@ function App() {
         <React.Fragment>
             <Router>
                 <Routes>
-                    <Route path="/" element={<Blog />} />
+                    <Route path="/main" element={<Blog />} />
                 </Routes>
             </Router>
         </React.Fragment>
