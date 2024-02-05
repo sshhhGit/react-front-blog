@@ -30,9 +30,9 @@ const sections = [
 ];
 
 const mainFeaturedPost = {
-  title: 'Title of a longer featured blog post',
+  title: '메뉴1',
   description:
-    "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
+    "~~~~~~메뉴의 대한 설명~~~~~",
   image: 'https://source.unsplash.com/random?wallpapers',
   imageText: 'main image description',
   linkText: 'Continue reading…',
@@ -41,65 +41,65 @@ const mainFeaturedPost = {
 const featuredPosts = [
   {
     title: 'Post title',
-    date: 'Nov 12',
+    date: 'ABCD',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      '테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트',
     image: 'https://source.unsplash.com/random?wallpapers',
     imageLabel: 'Image Text',
   },
   {
     title: 'Post title2',
-    date: 'Nov 11',
+    date: 'ABCD',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      '테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트',
     image: 'https://source.unsplash.com/random?wallpapers',
     imageLabel: 'Image Text',
   },
   {
     title: 'Post title3',
-    date: 'Nov 11',
+    date: 'ABCD',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      '테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트',
     image: 'https://source.unsplash.com/random?wallpapers',
     imageLabel: 'Image Text',
   },
   {
     title: 'Post title4',
-    date: 'Nov 11',
+    date: 'ABCD',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      '테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트',
     image: 'https://source.unsplash.com/random?wallpapers',
     imageLabel: 'Image Text',
   },
   {
     title: 'Post title5',
-    date: 'Nov 11',
+    date: 'ABCD',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      '테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트',
     image: 'https://source.unsplash.com/random?wallpapers',
     imageLabel: 'Image Text',
   },
   {
     title: 'Post title6',
-    date: 'Nov 11',
+    date: 'ABCD',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      '테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트',
     image: 'https://source.unsplash.com/random?wallpapers',
     imageLabel: 'Image Text',
   },
   {
     title: 'Post title7',
-    date: 'Nov 11',
+    date: 'ABCD',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      '테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트',
     image: 'https://source.unsplash.com/random?wallpapers',
     imageLabel: 'Image Text',
   },
   {
     title: 'Post title8',
-    date: 'Nov 11',
+    date: 'ABCD',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      '테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트',
     image: 'https://source.unsplash.com/random?wallpapers',
     imageLabel: 'Image Text',
   },
