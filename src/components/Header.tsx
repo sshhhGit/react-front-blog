@@ -5,6 +5,7 @@ import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
+import Container from "@mui/material/Container";
 
 interface HeaderProps {
   sections: ReadonlyArray<{
@@ -14,16 +15,33 @@ interface HeaderProps {
   title: string;
 }
 
-export default function Header(props: HeaderProps) {
-  const { sections, title } = props;
+const sections = [
+    { title: '메뉴1', url: '#' },
+    { title: '메뉴2', url: '#' },
+    { title: '메뉴3', url: '#' },
+    { title: '메뉴4', url: '#' },
+    { title: '메뉴5', url: '#' },
+    { title: '메뉴6', url: '#' },
+    { title: '메뉴7', url: '#' },
+    { title: '메뉴8', url: '#' },
+    { title: '메뉴9', url: '#' },
+    { title: '메뉴10', url: '#' },
+];
+
+const title = "사이트로고";
+
+/*export default function Header(props: HeaderProps) {*/
+  /*const { sections, title } = props;*/
+export default function Header() {
 
   return (
     <React.Fragment>
+    <Container maxWidth="lg">
       <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Button
           variant="outlined"
           size="small"
-          href={"/registration"}
+          href={"/register"}
         >
             등록
         </Button>
@@ -35,7 +53,9 @@ export default function Header(props: HeaderProps) {
           noWrap
           sx={{ flex: 1 }}
         >
-          {title}
+          <Link href={"/"}>
+            {title}
+          </Link>
         </Typography>
         <IconButton>
           <SearchIcon />
@@ -62,6 +82,7 @@ export default function Header(props: HeaderProps) {
           </Link>
         ))}
       </Toolbar>
+    </Container>
     </React.Fragment>
   );
 }

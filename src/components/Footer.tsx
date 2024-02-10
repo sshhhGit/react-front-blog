@@ -17,13 +17,17 @@ function Copyright() {
   );
 }
 
-interface FooterProps {
+/*interface FooterProps {
   description: string;
   title: string;
-}
+}*/
 
-export default function Footer(props: FooterProps) {
-  const { description, title } = props;
+const title = "Footer"
+const description = "Something here to give the footer a purpose!"
+
+/*export default function Footer(props: FooterProps) {*/
+  /*const { description, title } = props;*/
+export default function Footer() {
 
   return (
     <Box component="footer" sx={{ bgcolor: 'background.paper', py: 6 }}>

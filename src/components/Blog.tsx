@@ -16,7 +16,7 @@ import post1 from './blog-post.1.md';
 import post2 from './blog-post.2.md';
 import post3 from './blog-post.3.md';
 
-const sections = [
+/*const sections = [
   { title: '메뉴1', url: '#' },
   { title: '메뉴2', url: '#' },
   { title: '메뉴3', url: '#' },
@@ -27,7 +27,7 @@ const sections = [
   { title: '메뉴8', url: '#' },
   { title: '메뉴9', url: '#' },
   { title: '메뉴10', url: '#' },
-];
+];*/
 
 const mainFeaturedPost = {
   title: '메뉴1',
@@ -139,7 +139,7 @@ export default function Blog() {
     <ThemeProvider theme={defaultTheme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title="사이트 로고" sections={sections} />
+        {/*<Header title="사이트 로고" sections={sections} />*/}
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={4}>
@@ -158,10 +158,10 @@ export default function Blog() {
           </Grid>
         </main>
       </Container>
-      <Footer
+      {/*<Footer
         title="Footer"
         description="Something here to give the footer a purpose!"
-      />
+      />*/}
     </ThemeProvider>
   );
 }
