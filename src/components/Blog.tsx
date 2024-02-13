@@ -155,7 +155,7 @@ export default function Blog() {
               <FeaturedPost key={post.title} post={post} />
             ))}
           </Grid>
-          <Grid container spacing={5} sx={{ mt: 3 }}>
+          {/*<Grid container spacing={5} sx={{ mt: 3 }}>
             <Main title="From the firehose" posts={posts} />
             <Sidebar
               title={sidebar.title}
@@ -163,7 +163,7 @@ export default function Blog() {
               archives={sidebar.archives}
               social={sidebar.social}
             />
-          </Grid>
+          </Grid>*/}
         </main>
       </Container>
       {/*<Footer
