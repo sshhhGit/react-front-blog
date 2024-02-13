@@ -40,6 +40,7 @@ const mainFeaturedPost = {
 
 const featuredPosts = [
   {
+    id: "1",
     title: 'Post title',
     date: 'ABCD',
     description:
@@ -48,6 +49,7 @@ const featuredPosts = [
     imageLabel: 'Image Text',
   },
   {
+    id: "2",
     title: 'Post title2',
     date: 'ABCD',
     description:
@@ -56,6 +58,7 @@ const featuredPosts = [
     imageLabel: 'Image Text',
   },
   {
+    id: "3",
     title: 'Post title3',
     date: 'ABCD',
     description:
@@ -64,6 +67,7 @@ const featuredPosts = [
     imageLabel: 'Image Text',
   },
   {
+    id: "4",
     title: 'Post title4',
     date: 'ABCD',
     description:
@@ -72,6 +76,7 @@ const featuredPosts = [
     imageLabel: 'Image Text',
   },
   {
+    id: "5",
     title: 'Post title5',
     date: 'ABCD',
     description:
@@ -80,6 +85,7 @@ const featuredPosts = [
     imageLabel: 'Image Text',
   },
   {
+    id: "6",
     title: 'Post title6',
     date: 'ABCD',
     description:
@@ -88,6 +94,7 @@ const featuredPosts = [
     imageLabel: 'Image Text',
   },
   {
+    id: "7",
     title: 'Post title7',
     date: 'ABCD',
     description:
@@ -96,6 +103,7 @@ const featuredPosts = [
     imageLabel: 'Image Text',
   },
   {
+    id: "8",
     title: 'Post title8',
     date: 'ABCD',
     description:

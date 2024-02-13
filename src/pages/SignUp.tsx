@@ -55,11 +55,11 @@ export default function SignUp() {
                         <LockOutlinedIcon />
                     </Avatar>
                     <Typography component="h1" variant="h5">
-                        Sign up
+                        회원가입
                     </Typography>
                     <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
                         <Grid container spacing={2}>
-                            <Grid item xs={12} sm={6}>
+                            {/*<Grid item xs={12} sm={6}>
                                 <TextField
                                     autoComplete="given-name"
                                     name="firstName"
@@ -69,8 +69,8 @@ export default function SignUp() {
                                     label="First Name"
                                     autoFocus
                                 />
-                            </Grid>
-                            <Grid item xs={12} sm={6}>
+                            </Grid>*/}
+                            {/*<Grid item xs={12} sm={6}>
                                 <TextField
                                     required
                                     fullWidth
@@ -79,13 +79,55 @@ export default function SignUp() {
                                     name="lastName"
                                     autoComplete="family-name"
                                 />
+                            </Grid>*/}
+                            <Grid item xs={12}>
+                                <TextField
+                                    required
+                                    fullWidth
+                                    id="userId"
+                                    label="아이디"
+                                    name="userId"
+                                    autoComplete="userId"
+                                />
+                            </Grid>
+                            <Grid item xs={12}>
+                                <TextField
+                                    required
+                                    fullWidth
+                                    name="password"
+                                    label="비밀번호"
+                                    type="password"
+                                    id="password"
+                                    autoComplete="new-password"
+                                />
+                            </Grid>
+                            <Grid item xs={12}>
+                                <TextField
+                                    required
+                                    fullWidth
+                                    name="password"
+                                    label="비밀번호 확인"
+                                    type="password"
+                                    id="password"
+                                    autoComplete="new-password"
+                                />
+                            </Grid>
+                            <Grid item xs={12}>
+                                <TextField
+                                    required
+                                    fullWidth
+                                    id="nickname"
+                                    label="닉네임"
+                                    name="nickname"
+                                    autoComplete="nickname"
+                                />
                             </Grid>
                             <Grid item xs={12}>
                                 <TextField
                                     required
                                     fullWidth
                                     id="email"
-                                    label="Email Address"
+                                    label="이메일 주소"
                                     name="email"
                                     autoComplete="email"
                                 />
@@ -94,38 +136,39 @@ export default function SignUp() {
                                 <TextField
                                     required
                                     fullWidth
-                                    name="password"
-                                    label="Password"
-                                    type="password"
-                                    id="password"
-                                    autoComplete="new-password"
+                                    id="email2"
+                                    label="이메일 주소 확인"
+                                    name="email2"
+                                    autoComplete="email"
                                 />
                             </Grid>
-                            <Grid item xs={12}>
+                            {/*<Grid item xs={12}>
                                 <FormControlLabel
                                     control={<Checkbox value="allowExtraEmails" color="primary" />}
                                     label="I want to receive inspiration, marketing promotions and updates via email."
                                 />
-                            </Grid>
+                            </Grid>*/}
                         </Grid>
                         <Button
                             type="submit"
                             fullWidth
                             variant="contained"
                             sx={{ mt: 3, mb: 2 }}
+                            size="large"
+                            color="success"
                         >
-                            Sign Up
+                            회원가입
                         </Button>
-                        <Grid container justifyContent="flex-end">
+                        {/*<Grid container justifyContent="flex-end">
                             <Grid item>
-                                <Link href="#" variant="body2">
-                                    Already have an account? Sign in
+                                <Link href="/login" variant="body2">
+                                    로그인
                                 </Link>
                             </Grid>
-                        </Grid>
+                        </Grid>*/}
                     </Box>
                 </Box>
-                <Copyright sx={{ mt: 5 }} />
+                {/*<Copyright sx={{ mt: 5 }} />*/}
             </Container>
         </ThemeProvider>
     );

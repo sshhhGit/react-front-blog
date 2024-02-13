@@ -7,13 +7,13 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import Container from "@mui/material/Container";
 
-interface HeaderProps {
+/*interface HeaderProps {
   sections: ReadonlyArray<{
     title: string;
     url: string;
   }>;
   title: string;
-}
+}*/
 
 const sections = [
     { title: '메뉴1', url: '#' },
@@ -60,14 +60,18 @@ export default function Header() {
         <IconButton>
           <SearchIcon />
         </IconButton>
-        <Button variant="outlined" size="small">
+        <Button
+            variant="outlined"
+            size="small"
+            href={"/login"}
+        >
             로그인
         </Button>
       </Toolbar>
       <Toolbar
         component="nav"
         variant="dense"
-        sx={{ justifyContent: 'space-between', overflowX: 'auto' }}
+        sx={{ justifyContent: 'space-between', overflowX: 'auto', borderColor: 'divider', marginBottom: 4 }}
       >
         {sections.map((section) => (
           <Link
